@@ -1,1 +1,7 @@
-# miapaca_2
+# Hybrid AI models allow label-free identification and classification of pancreatic tumor repopulating cell population
+
+This is a repository that contains the code of this paper: https://doi.org/10.1016/j.bbrc.2023.08.015
+
+# Summary of the project
+
+Human pancreatic cancer cell lines harbor a small population of tumor repopulating cells (TRCs). Soft 3D fibrin gel allows efficient selection and growth of these tumorigenic TRCs. However, rapid and high-throughput identification and classification of pancreatic TRCs remain technically challenging. Here, we developed deep learning (DL) models paired with machine learning (ML) models to readily identify and classify 3D fibrin gel-selected TRCs into sub-types. Using four different human pancreatic cell lines, namely, MIA PaCa-2, PANC-1, CFPAC-1, and HPAF-II, we classified 3 main sub-types to be present within the TRC population. Our best model was an Inception-v3 convolutional neural network (CNN) used as a feature extractor paired with a Support Vector Machine (SVM) classifier with radial basis function (rbf) kernel which obtained a test accuracy of 90%. In addition, we compared this hybrid method of supervised classification with other methods of supervised classifications and showed that our working model outperforms others. With the help of unsupervised machine learning algorithms, we also validated that the pancreatic TRC subpopulation can be clustered into 3 sub-types. Collectively, our robust model can detect and readily classify tumorigenic TRC subpopulation label-free in a high-throughput fashion which can be very beneficial in clinical settings.
